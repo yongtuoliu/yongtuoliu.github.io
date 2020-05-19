@@ -2,16 +2,11 @@
 title: "Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'In this work, we study semi-supervised learning in the context of important people detection and propose a semi- supervised learning method for this task.'
 date: 2020-3-01
 venue: 'International Conference on Computer Vision and Pattern Recognition, 2020'
 paperurl: '[paper](https://arxiv.org/abs/2004.07568)'
-citation: '@inproceedings{hong2020semi,
-title={Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection},
-author={Hong, Fa-Ting and Li, Wei-Hong and Zheng, Wei-Shi},
-booktitle={Proceedings of the IEEE International Conference on Computer Vision and Pattern Recognition},
-year={2020}
-}
+citation: 'Fa-Ting Hong, Wei-Hong Li and Wei-Shi Zheng. Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection. In Computer Vision and Pattern Recognition, 2020.
 '
 ---
 ## Abstract
@@ -19,9 +14,4 @@ Important people detection is to automatically detect the individuals who play t
 
 [Download paper here](https://arxiv.org/abs/2004.07568) [[Poster]](https://weihonglee.github.io/Projects/Learning-to-Rank/Basic/1842-poster.pdf)
 
-Recommended citation: @inproceedings{hong2020semi,
-title={Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection},
-author={Hong, Fa-Ting and Li, Wei-Hong and Zheng, Wei-Shi},
-booktitle={Proceedings of the IEEE International Conference on Computer Vision and Pattern Recognition},
-year={2020}
-}
+Recommended citation: Fa-Ting Hong, Wei-Hong Li and Wei-Shi Zheng. Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection. In Computer Vision and Pattern Recognition, 2020.
