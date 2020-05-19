@@ -17,6 +17,9 @@ I am currently a M.S. student in [Prof. Wei-Shi Zheng](https://www.isee-ai.cn/~z
 
 **NEWS:**  (February 2020): One paper to appear at CVPR 2020. The paper and poster are now online.
 
+
+**NEWS:**  (May 2019): Attending the CVPR2019 Academic Report held by Tencent PCG.
+
 **NEWS:**  (April 2019): One paper to appear at CVPR 2019. The [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Learning_to_Learn_Relation_for_Important_People_Detection_in_Still_CVPR_2019_paper.pdf) is now online.
 
 <!-- **<font face="微软雅黑" size=2 color=#FF0000 >NEWS</font>**  (May 2020): Attending the CVPR2020 pre-communication online conference hosted by CSIG.
