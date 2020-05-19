@@ -5,5 +5,5 @@ collection: stories
 permalink: /stories/graduation
 ---
 
-Here leave blank to wait for me to have leisure to recall again
+Here leave blank to wait for me to have leisure to recall again!
 
