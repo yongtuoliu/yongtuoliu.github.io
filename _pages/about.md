@@ -12,6 +12,7 @@ I am currently a M.S. student in [Prof. Wei-Shi Zheng](https://www.isee-ai.cn/~z
 
 
 **NEWS:**  (May 2020): Attending the CVPR2020 pre-communication online conference hosted by CSIG.
+
 **NEWS:**  (February 2020): One paper to appear at CVPR 2020. The paper and poster are now online.
 <!-- **<font face="微软雅黑" size=2 color=#FF0000 >NEWS</font>**  (May 2020): Attending the CVPR2020 pre-communication online conference hosted by CSIG.
 **<font face="微软雅黑" size=2 color=#FF0000 >NEWS</font>**  (February 2020): One paper to appear at CVPR 2020. The paper and poster are now online. -->
