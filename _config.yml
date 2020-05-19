@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  my story:
+  stories:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -230,7 +230,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: stories
     values:
       layout: single
       author_profile: true
