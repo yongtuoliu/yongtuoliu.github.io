@@ -5,7 +5,7 @@ permalink: /publication/POINT
 excerpt: 'In this work, we propose a deep imPOrtance relatIon NeTwork (POINT) that combines both relation modeling and feature learning.'
 date: 2019-3-1
 venue: 'International Conference on Computer Vision and Pattern Recognition'
-paperurl: 'http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Learning_to_Learn_Relation_for_Important_People_Detection_in_Still_CVPR_2019_paper.pdf'
+paperurl: ''
 citation: 'Wei-Hong Li, Fa-Ting Hong, and Wei-Shi Zheng. Learning to learn relation for important people detection in still images. In Computer Vision and Pattern Recognition, 2019.'
 ---
 
