@@ -8,6 +8,8 @@ venue: 'International Conference on Computer Vision and Pattern Recognition'
 paperurl: ''
 citation: 'Wei-Hong Li, Fa-Ting Hong, and Wei-Shi Zheng. Learning to learn relation for important people detection in still images. In Computer Vision and Pattern Recognition, 2019.'
 ---
+<!-- <img src='/Projects/POINT/graduation.jpg'>" -->
+![avatar](/Projects/POINT/FrameworkDetail.pdf)
 
 ## Abstract
 
