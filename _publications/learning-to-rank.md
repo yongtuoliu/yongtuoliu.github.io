@@ -2,7 +2,7 @@
 title: "Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection"
 collection: publications
 permalink: /publication/learning-to-rank
-excerpt: 'In this work, we study semi-supervised learning in the context of important people detection and propose a semi- supervised learning method for this task.'
+excerpt: 'In this work, we study semi-supervised learning in the context of important people detection and propose a semi-supervised learning method for this task.'
 date: 2020-3-01
 venue: 'International Conference on Computer Vision and Pattern Recognition'
 paperurl: ''
