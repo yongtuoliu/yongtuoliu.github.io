@@ -13,7 +13,7 @@ I am currently a M.S. student in [Prof. Wei-Shi Zheng](https://www.isee-ai.cn/~z
 
 **NEWS:**  (May 2020): Attending the CSIG-Guangdong Province CVPR2020 Online Academic Report.
 
-**NEWS:**  (February 2020): Deadline for ECCV2020
+**NEWS:**  (March 2020): Deadline for ECCV2020
 
 **NEWS:**  (February 2020): One paper to appear at CVPR 2020. The paper and poster are now online.
 
