@@ -1,6 +1,6 @@
 ---
 title: "Graduation from SCUT"
-excerpt: "I graduated from south China university of technology in June 2018, which means most of my youth is over. <br/><img src='/images/graduation.jpg'>"
+excerpt: "I graduated from south China university of technology in June 2018. <br/><img src='/images/graduation.jpg'>"
 collection: stories
 permalink: /stories/graduation
 ---
