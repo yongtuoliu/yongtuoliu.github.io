@@ -49,3 +49,5 @@ Talks
 Service and leadership
 ======
 * TODO
+
+[Download Resume](https://harlanhong.github.io/Projects/Resume/resume.pdf)
