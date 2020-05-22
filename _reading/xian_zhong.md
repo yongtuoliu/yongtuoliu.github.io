@@ -1,5 +1,5 @@
 ---
-title: "悍刀雪中行"
+title: "雪中悍刀行"
 collection: reading
 type: "Reading"
 permalink: /reading/xian_zhong
