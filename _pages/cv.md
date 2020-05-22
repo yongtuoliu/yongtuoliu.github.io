@@ -18,13 +18,13 @@ Work experience
 ======
 * TODO
   * WHERE
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Duties included: 
+  * Supervisor:
 
   
 Skills
 ======
-* Computer vision
+* Computer vision reseach
 * Server management
 
 
