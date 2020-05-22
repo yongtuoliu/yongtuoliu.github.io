@@ -4,5 +4,6 @@ title: "Reading"
 permalink: /reading/
 author_profile: true
 redirect_from:
-  - /reading
+  - /books
 ---
+{% include base_path %}
