@@ -6,10 +6,6 @@ permalink: /reading/a-brief-history-of-human
 date: 2020-5-22
 
 ---
+I recently read a brief history of humanity written by Yuval Noah Hariari, which outlines four aspects, namely human cognition, agricultural revolution, the modernization of the country from regional to global Development, and the great social changes brought about by the scientific revolution. 
 
-I have made a presentation online about our work in CVPR2020.
-
-I have made a presentation online about our work in CVPR2020, i.e., Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection, on the Guangdong CVPR2020 pre-communication. More details can be viewed in following links! 
-
-[WeChat Blog](https://mp.weixin.qq.com/s/rK4mnRExjchMCf7cC_qGVg)
-[Online Video](TODO)
+In this process, I saw that the formation of human society is inseparable from the common imagination that exists in human consciousness. Because humans trust certain things together, hundreds of millions of humans can work together. The imagination of human trust includes human Economic, political, religious, etc. 
