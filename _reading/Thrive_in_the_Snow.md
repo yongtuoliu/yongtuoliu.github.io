@@ -2,7 +2,7 @@
 title: "雪中悍刀行"
 collection: reading
 type: "Reading"
-permalink: /reading/xian_zhong
+permalink: /reading/Thrive_in_the_Snow
 date: 2017-6-1
 
 ---

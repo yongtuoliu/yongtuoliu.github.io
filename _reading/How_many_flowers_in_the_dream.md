@@ -1,8 +1,8 @@
 ---
-title: "三体"
+title: "梦里花落知多少"
 collection: reading
 type: "Reading"
-permalink: /reading/san_ti
+permalink: /reading/How_many_flowers_in_the_dream
 date: 2017-6-1
 
 ---
