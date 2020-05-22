@@ -6,4 +6,4 @@ permalink: /reading/qin-empire
 date: 2017-6-1
 
 ---
-I'll come back later to write my thoughts on the book
+I'll come back later to write my thoughts about the book
