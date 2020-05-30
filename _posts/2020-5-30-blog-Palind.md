@@ -74,7 +74,7 @@ class Solution:
             for i in range(1,len(string)+1):
                 if string[:i] == string[:i][::-1]:
                     helper(string[i:],subresult+[string[:i]])
-        helper(s,[])
+        forward(s,[])
         return res
 ```
 思路2：联系上一题，先确定dp[i,j]是否是回文串，再DFS遍历所有可能的路径，也就是dp[0,i]+dp[i,j]+dp[j,k]+dp[k,n],这解法转载自powcai
@@ -172,4 +172,53 @@ class Solution:
             if palindrome[i]!='a':
                 return palindrome[:i]+'a'+palindrome[i+1:]
         return palindrome[:n-1]+'b'
+```
+
+## 题目6：分割回文串2
+给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
+返回符合要求的最少分割次数。
+```py
+输入: "aab"
+输出: 1
+解释: 进行一次分割就可将 s 分割成 ["aa","b"] 这样两个回文子串。
+```
+
+***Answer:***
+思路1：采用回溯+剪枝，但还是会超时，时间为$O(N^2)$。
+```py
+class Solution:
+    def minCut(self, s: str) -> int:
+        if len(s)<2:
+            return 0
+        min_cut = [len(s)]
+        def recall(sub,current_cut):
+            if not sub:
+                min_cut[0] = min(min_cut[0],current_cut-1)
+            if min_cut[0]<current_cut:
+                return 
+            for i in range(1,len(sub)+1):
+                if sub[:i] == sub[:i][::-1]:
+                    recall(sub[i:],current_cut+1)
+        recall(s,0)
+        return min_cut[0]
+```
+思路2：采用动态规划，dp[i,j]表示s[i:j+1]是回文串
+```py
+class Solution:
+    def minCut(self, s: str) -> int:
+        n = len(s)
+        dp = [[False]*n for _ in range(n)]
+        for i in range(n):
+            for j in range(i+1):
+                if s[i] == s[j] and (i-j<=2 or dp[j+1][i-1]):
+                    dp[j][i]=True
+        res = [n]*n
+        for i in range(n):
+            if dp[0][i]:
+                res[i]=0
+                continue
+            for j in range(0,i):
+                if dp[j+1][i]:
+                    res[i] = min(res[i],res[j]+1)
+        return res[n-1]
 ```
