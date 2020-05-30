@@ -1,5 +1,5 @@
 ---
-title: '回文串系列'
+title: '算法刷题：回文串系列'
 date: 2020-5-30
 permalink: /posts/2020/05/palind/
 tags:
@@ -7,7 +7,7 @@ tags:
   - plan
 ---
 
-#### 题目1：最长回文子串
+## 题目1：最长回文子串
 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
 
 ```py
@@ -51,7 +51,7 @@ class Solution:
         return ans
 ```
 
-#### 题目2：分割回文串
+## 题目2：分割回文串
 给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
 返回 s 所有可能的分割方案。
 ```py
@@ -98,7 +98,7 @@ class Solution:
         recall(0,[])
         return result
 ```
-#### 题目3：回文子串
+## 题目3：回文子串
 给定一个字符串，你的任务是计算这个字符串中有多少个回文子串。
 具有不同开始位置或结束位置的子串，即使是由相同的字符组成，也会被计为是不同的子串。
 ```py
@@ -121,7 +121,7 @@ class Solution:
                     count+=1
         return count
 ```
-#### 题目4： 验证回文串
+## 题目4： 验证回文串
 给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
 说明：本题中，我们将空字符串定义为有效的回文串。
 ```py
@@ -148,4 +148,28 @@ class Solution:
         if string == string[::-1]:
             return True
         return False
+```
+
+## 题目5： 破坏回文串
+给你一个回文字符串 palindrome ，请你将其中 一个 字符用任意小写英文字母替换，使得结果字符串的字典序最小，且 不是 回文串。
+请你返回结果字符串。如果无法做到，则返回一个空串。
+```py
+输入：palindrome = "abccba"
+输出："aaccba"
+输入：palindrome = "a"
+输出：""
+```
+***Answer:***
+思路：字典序最小，也就是要填充尽可能小的字符,比如ab>aa，所以要尽可往前填a，当遇到所有都是a时，要在最后一位填b。
+由于是回文串，所以前一半和后一半是相同的，我们只要遍历前一半就好，如果前一半都是a,那么后一半也全是a,所以要修改回文串且字典序最小，则在最后一位将a变为b
+```py
+class Solution:
+    def breakPalindrome(self, palindrome: str) -> str:
+        n = len(palindrome)
+        if n<2:
+            return ""
+        for i in range(int(n/2)):
+            if palindrome[i]!='a':
+                return palindrome[:i]+'a'+palindrome[i+1:]
+        return palindrome[:n-1]+'b'
 ```
