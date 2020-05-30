@@ -3,8 +3,8 @@ title: '算法刷题：回文串系列'
 date: 2020-5-30
 permalink: /posts/2020/05/palind/
 tags:
-  - cool posts
-  - plan
+  - Algorithm
+  - Palindrome
 ---
 
 ## 题目1：最长回文子串
@@ -202,7 +202,7 @@ class Solution:
         recall(s,0)
         return min_cut[0]
 ```
-思路2：采用动态规划，dp[i,j]表示s[i:j+1]是回文串
+思路2：采用动态规划，dp[i,j]表示s[i:j+1]是回文串,然后再构建最短路
 ```py
 class Solution:
     def minCut(self, s: str) -> int:
