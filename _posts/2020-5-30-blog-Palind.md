@@ -6,6 +6,7 @@ tags:
   - Algorithm
   - Palindrome
 ---
+以下题目均来自LeetCode。
 
 ## 题目1：最长回文子串
 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
@@ -221,4 +222,78 @@ class Solution:
                 if dp[j+1][i]:
                     res[i] = min(res[i],res[j]+1)
         return res[n-1]
+```
+## 题目6：分割回文串3
+给你一个由小写字母组成的字符串 s，和一个整数 k。
+
+请你按下面的要求分割字符串：
+首先，你可以将 s 中的部分字符修改为其他的小写英文字母。
+接着，你需要把 s 分割成 k 个非空且不相交的子串，并且每个子串都是回文串。
+请返回以这种方式分割字符串所需修改的最少字符数。
+
+```py
+输入：s = "abc", k = 2
+输出：1
+解释：你可以把字符串分割成 "ab" 和 "c"，并修改 "ab" 中的 1 个字符，将它变成回文串。
+输入：s = "aabbc", k = 3
+输出：0
+解释：你可以把字符串分割成 "aa"、"bb" 和 "c"，它们都是回文串。
+```
+
+***Answer:***
+思路1：采用动态规划,dp[i][j]表示s[:i]分为j段要修改的次数
+$dp[i][j] = min(dp[k][j-1]+const(s[k+1:i])$
+const表示将参数变为回文串需要修改的次数
+算法时间复杂度有待提高
+```py
+class Solution:
+    def palindromePartition(self, s: str, k: int) -> int:
+        n = len(s)
+        def const(subs):
+            p1 = 0
+            p2 = len(subs)-1
+            count = 0
+            while p1<p2:
+                if not subs[p1] == subs[p2]:
+                    count+=1
+                p1+=1
+                p2-=1
+            return count
+        dp = [[10**9]*(n+1) for _ in range(n+1)]
+        for i in range(1,n+1):
+            for j in range(1,min(k,i)+1):
+                if j == 1:
+                    dp[i][j] = const(s[:i])
+                else:
+                    #k>j-1才有意义
+                    for t in range(j-1,i):
+                        dp[i][j] = min(dp[i][j],dp[t][j-1]+const(s[t:i]))
+        return dp[n][k]
+```
+思路2：预处理const函数，可以看到const函数调用了O(N^3)次，而const本质上可以在O(N^2)内遍历完。
+
+## 题目7：最短回文串
+给定一个字符串 s，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。
+```py
+输入: "aacecaaa"
+输出: "aaacecaaa"
+输入: "abcd"
+输出: "dcbabcd"
+```
+***Answer:***
+思路1：先判断s[0:t]是回文串，或t==1，则开头不包含回文串，或t==n,则表示整体是一个回文串。
+```py
+class Solution:
+    def shortestPalindrome(self, s: str) -> str:
+        n = len(s)
+        if n<2:
+            return s
+        idx = 1
+        for i in range(2,n+1):
+            if s[0:i] == s[0:i][::-1]:
+                idx = i
+        if idx == n:
+            return s
+        else:
+            return s[idx:][::-1]+s
 ```
