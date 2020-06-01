@@ -1,7 +1,7 @@
 ---
 title: '算法刷题：矩阵系列'
-date: 2020--6-01
-permalink: /posts/2012/08/matrix/
+date: 2020-6-01
+permalink: /posts/201/08/matrix/
 tags:
   - matrix
   - algorithm
