@@ -172,5 +172,99 @@ class Solution:
         return res
 ```
 
+## 题目5：零矩阵
+编写一种算法，若M × N矩阵中某个元素为0，则将其所在的行与列清零。
+```py
+输入：
+[
+  [1,1,1],
+  [1,0,1],
+  [1,1,1]
+]
+输出：
+[
+  [1,0,1],
+  [0,0,0],
+  [1,0,1]
+]
+```
 
+***Answer:***记录下要消除的行和列就可以，为了防止重复，可以用字典来记录
+```py
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        row,column = {},{}
+        n = len(matrix)
+        if n==0:
+            return
+        m = len(matrix[0])
+        if m==0:
+            return 
+        for i in range(n):
+            for j in range(m):
+                if matrix[i][j]==0:
+                    row[i]=1
+                    column[j]=1
+        rows = list(row.keys())
+        columns = list(column.keys())
+        for i in rows:
+            for k in range(m):
+                matrix[i][k]=0
+        for i in columns:
+            for k in range(n):
+                matrix[k][i]=0
+        return 
+```
 
+## 题目6：重塑矩阵
+在MATLAB中，有一个非常有用的函数 reshape，它可以将一个矩阵重塑为另一个大小不同的新矩阵，但保留其原始数据。
+给出一个由二维数组表示的矩阵，以及两个正整数r和c，分别表示想要的重构的矩阵的行数和列数。
+重构后的矩阵需要将原始矩阵的所有元素以相同的行遍历顺序填充。
+如果具有给定参数的reshape操作是可行且合理的，则输出新的重塑矩阵；否则，输出原始矩阵。
+```py
+输入: 
+nums = 
+[[1,2],
+ [3,4]]
+r = 1, c = 4
+输出: 
+[[1,2,3,4]]
+解释:
+行遍历nums的结果是 [1,2,3,4]。新的矩阵是 1 * 4 矩阵, 用之前的元素值一行一行填充新矩阵。
+```
+
+***Answer:***按顺序填充，类似C++的指针
+```py
+class Solution:
+    def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
+        n = len(nums)
+        if n==0:
+            return []
+        m = len(nums[0])
+        if n*m!=r*c:
+            return nums
+        res = [[0]*c for _ in range(r)]
+        p=0
+        for i in range(r):
+            for j in range(c):
+                res[i][j]=nums[int(p/m)][p%m]
+                p+=1
+        return res
+```
+
+## 题目7：单词矩阵
+给定一份单词的清单，设计一个算法，创建由字母组成的面积最大的矩形，其中每一行组成一个单词(自左向右)，每一列也组成一个单词(自上而下)。不要求这些单词在清单里连续出现，但要求所有行等长，所有列等高。
+如果有多个面积最大的矩形，输出任意一个均可。一个单词可以重复使用。
+```py
+输入: ["this", "real", "hard", "trh", "hea", "iar", "sld"]
+输出:
+[
+   "this",
+   "real",
+   "hard"
+]
+```
+***Answer:***此题超过100行代码，在面试时基本不会写这么长的代码，答案可以查看[这里](https://leetcode-cn.com/problems/word-rectangle-lcci/solution/trieshu-dfshui-su-by-kobe24o/)
