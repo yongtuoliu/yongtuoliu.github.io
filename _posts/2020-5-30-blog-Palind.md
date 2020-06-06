@@ -76,7 +76,7 @@ class Solution:
                 res.append(subresult)
             for i in range(1,len(string)+1):
                 if string[:i] == string[:i][::-1]:
-                    helper(string[i:],subresult+[string[:i]])
+                    forward(string[i:],subresult+[string[:i]])
         forward(s,[])
         return res
 ```
