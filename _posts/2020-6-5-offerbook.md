@@ -28,7 +28,7 @@ tags:
 ```
 
 ***Answer:*** 使用一个队列来存储当前最大值，从后面开始只记录非严格递增的数，窗口滑动时遇到队列第一个数，就去掉。
-```PY
+```py
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         n = len(nums)
