@@ -60,11 +60,8 @@ Talks
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
-  
-Service and leadership
-======
-* TODO
 
-[Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/resume.pdf)  
 
-[Download Resume(EN)](https://harlanhong.github.io/Projects/Resume/FaTingHong_cv.pdf)
+[Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/FatingHong_cv_ch.pdf)  
+
+[Download Resume(EN)](https://harlanhong.github.io/Projects/Resume/FatingHong_cv_en.pdf)
