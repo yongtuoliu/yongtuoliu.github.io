@@ -65,5 +65,5 @@ Service and leadership
 ======
 * TODO
 
-[Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/resume.pdf)
+[Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/resume.pdf)  
 [Download Resume(EN)](https://harlanhong.github.io/Projects/Resume/FaTingHong_cv.pdf)
