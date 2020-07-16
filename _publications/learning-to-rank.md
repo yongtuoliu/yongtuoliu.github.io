@@ -6,8 +6,7 @@ excerpt: 'In this work, we study semi-supervised learning in the context of impo
 date: 2020-3-01
 venue: 'International Conference on Computer Vision and Pattern Recognition'
 paperurl: ''
-citation: 'Fa-Ting Hong, Wei-Hong Li and Wei-Shi Zheng. Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection. In Computer Vision and Pattern Recognition, 2020.
-'
+citation: 'Fa-Ting Hong, Wei-Hong Li and Wei-Shi Zheng. Learning to Detect Important People in Unlabelled Images for Semi-supervised Important People Detection. In Computer Vision and Pattern Recognition, 2020.'
 ---
 <!-- <img src='/Projects/Learning-to-Rank/1842-framework.jpg'> -->
 ![avatar](/Projects/Learning-to-Rank/1842-framework.jpg)
