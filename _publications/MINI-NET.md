@@ -19,4 +19,5 @@ Paper is coming soon!!
  -->
 
 
+
 Recommended citation: Fa-Ting Hong, Xuanteng Huang, Wei-Hong Li, and Wei-Shi Zheng. MINI-Net: Multiple Instance Ranking Networkfor Video Highlight Detection. In European Conference on Computer Vision (ECCV), 2020.
