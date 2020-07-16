@@ -6,7 +6,7 @@ excerpt: 'We address the weakly supervised video highlight detectionproblem for 
 date: 2020-7-3
 venue: 'European Conference on Computer Vision'
 paperurl: ''
-citation: 'Fa-Ting Hong, Xuanteng Huang, Wei-Hong Li, and Wei-Shi Zheng. MINI-Net: Multiple Instance Ranking Networkfor Video Highlight Detection. In European Conference on Computer Vision (ECCV), 2020.‘
+citation: 'Fa-Ting Hong, Xuanteng Huang, Wei-Hong Li, and Wei-Shi Zheng. MINI-Net: Multiple Instance Ranking Networkfor Video Highlight Detection. In European Conference on Computer Vision (ECCV), 2020.'
 ---
 <!-- <img src='/Projects/Learning-to-Rank/1842-framework.jpg'> -->
 ![avatar](/Projects/MINI-NET/1880-framework.pdf)
