@@ -17,10 +17,10 @@ Education
 
 Work experience
 ======
-* TODO
-  * WHERE
-  * Duties included: 
-  * Supervisor:
+* Action Localization
+  * Applied Research Center (ARC), PCG, Tencent
+  * Duties included: Do research in action localization and apply to the private data
+  * Supervisor: YING SHAN
 
   
 Skills
