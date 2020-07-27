@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/ACTION_NET
 excerpt: 'In this work, we present a novel hybrid dynAmic-static Context-aware attenTION NETwork (ACTION-NET) for action assessment in long videos'
 date: 2020-7-26
-venue: 'European Conference on Computer Vision'
+venue: 'ACM International Conference on Multimedia'
 paperurl: ''
 citation: 'Ling-An Zeng, Fa-Ting Hong, Wei-Shi Zheng, Qi-Zhi Yu, Wei Zeng, Yao-Wei Wang, and Jian-Huang Lai. Hybrid Dynamic-static Context-aware Attention Network for Action Assessment in Long Videos. Proc. of ACM International Conference on Multimedia (ACM MM), 2020.'
 ---
