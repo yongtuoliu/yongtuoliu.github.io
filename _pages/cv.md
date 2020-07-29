@@ -62,6 +62,6 @@ Talks
   {% endfor %}</ul> -->
 
 
-[Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/FatingHong_cv_ch.pdf)  
+<!-- [Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/FatingHong_cv_ch.pdf)   -->
 
 [Download Resume(EN)](https://harlanhong.github.io/Projects/Resume/FatingHong_cv_en.pdf)
