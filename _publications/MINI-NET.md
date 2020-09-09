@@ -1,5 +1,5 @@
 ---
-title: "MINI-Net: Multiple Instance Ranking Networkfor Video Highlight Detection"
+title: "MINI-Net: Multiple Instance Ranking Network for Video Highlight Detection"
 collection: publications
 permalink: /publication/MINI_NET
 excerpt: 'We address the weakly supervised video highlight detectionproblem for learning to detect the segments that are more attractivein training videos given their video event label but without expensivesupervision of manually annotating highlight segments.'
