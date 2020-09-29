@@ -5,6 +5,12 @@ main:
     
   - title: "Projects"
     url: /projects/
+    
+  - title: "Awards"
+    url: /awards/
+    
+  - title: "Activities"
+    url: /activities/
 
   #- title: "Talks"
   #  url: /talks/    
