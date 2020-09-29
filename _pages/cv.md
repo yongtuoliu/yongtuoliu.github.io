@@ -1,6 +1,6 @@
 ---
 <!-- layout: archive -->
-title: "Yongtuo Liu ()"
+title: "Yongtuo Liu (刘永拓)"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,27 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+
+<!--Education
 ======
 * M.Sc. in School of Computer Science and Engineering, South China University of Technology, 2018 - Now
-
 * B.S. in School of Electrical Engineering and Automation, China University of Mining and Technology, 2011 - 2015
-
 Work experience
 ======
 * Hong Kong University of Science and Technology (HKUST), Jul. 2020 - present
   * Duties included: Do research in action localization and apply to the private data
   * Supervisor: Prof. Dan Xu
-  
 * China Nuclear Power Technology Research Institute, Jul. 2015 - Mar. 2018
   * Duties included: R&D Simulation and Control Engineer, conduct research on steam turbine control system
   * Supervisor: Dr. Feng Wang
+-->
 
-<!--  
-Skills
-======
-* Computer vision reseach
-* Server management -->
 
 <!-- 
 Awards
@@ -66,9 +60,6 @@ Talks
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
-
-
-<!-- [Download Resume(CH)](https://harlanhong.github.io/Projects/Resume/FatingHong_cv_ch.pdf)   -->
 
 <!-- [Download Resume(EN)](https://harlanhong.github.io/Projects/Resume/FatingHong_CV.pdf) -->
 
