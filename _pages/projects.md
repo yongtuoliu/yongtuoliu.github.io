@@ -9,8 +9,9 @@ author_profile: true
     {% include archive-single.html %} 
 {% endfor %}
 
-<b>[China Graduate AI Innovation Competition](https://devmesh.intel.com/projects/a-crowd-counting-and-intelligent-warning-system-in-unconstrained-crowd-scenes)</b> <br> 
-With the rapid increase of urban population, crowd scene analysis has attracted more and more attention. We are developing an edge computing device for crowd counting and safety pre-warning. This system is based on Raspberry Pi and Neural Compute Stick 2, and can be deployed on any existing surveillance camera to perform intelligent scene analysis.
+<b>Crowd Couning and Crowd Scene Analysis [Homepage](https://devmesh.intel.com/projects/a-crowd-counting-and-intelligent-warning-system-in-unconstrained-crowd-scenes)</b> <br>
+<div style="text-align:center"><img class="img-responsive center-block" alt="pipeline picture" src="https://harlanhong.github.io/images/personalPic.JPG" style="width:60%"></div>
+\- With the rapid increase of urban population, crowd scene analysis has attracted more and more attention. We developed an edge computing device for crowd counting and crowd safety pre-warning. This system is based on Raspberry Pi and Neural Compute Stick 2, and can be deployed on existing surveillance cameras to perform intelligent scene analysis.
 
 <b>[DataFountain Adversarial AI Challenge](https://www.datafountain.cn/)</b> <br> 
 Remote Sensing Image Classification. Mainly dedicated to the investigation and re-implementation of general adversarial
