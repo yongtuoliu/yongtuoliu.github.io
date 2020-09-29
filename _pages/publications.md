@@ -24,7 +24,7 @@ refine predicted density maps progressively based on hierarchical multi-level de
 we also explore different crowd-specific data augmentation methods to mimic real-world scenarios
 and enrich crowd feature representations from different aspects.
 
-<b>[CrowdGAN: Identity-free interactive Crowd Video Generation and Beyond]()</b> <br> 
+<b>[CrowdGAN: Identity-free Interactive Crowd Video Generation and Beyond]()</b> <br> 
  Liangyu Chai\*, <b>Yongtuo Liu</b>\*, Wenxi Liu, Guoqiang Han, and Shengfeng He. <br>
 <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), Major Revision. (\*denotes equal contribution)</i><br>
 \- In this paper, we introduce a novel yet challenging research problem, interactive crowd video generation,
