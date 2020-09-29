@@ -2,6 +2,9 @@
 main:
   - title: "Publications"
     url: /publications/
+    
+  - title: "Projects"
+    url: /projects/
 
   - title: "Talks"
     url: /talks/    
@@ -17,7 +20,10 @@ main:
     url: /year-archive/
     
   - title: "Reading"
-    url: /reading/ 
+    url: /reading/
+    
+  - title: "Contact"
+    url: /contact/ 
   
   - title: "CV"
     url: /cv/
