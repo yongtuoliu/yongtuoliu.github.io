@@ -19,7 +19,7 @@ author_profile: true
 <b>[Crowd Counting via Cross-stage Refinement Networks](https://www.researchgate.net/publication/341504233_Crowd_Counting_via_Cross-stage_Refinement_Networks)</b> <br> 
 <b>Yongtuo Liu</b>, Qiang Wen, Haoxin Chen, Wenxi Liu, Jing Qin, Guoqiang Han, and Shengfeng He. <br>
 <i>IEEE Transactions on Image Processing (IEEE TIP), 2020.</i> <br>
--In this work, we propose a Cross-stage Refinement Network for accurate crowd counting that can 
+--In this work, we propose a Cross-stage Refinement Network for accurate crowd counting that can 
 refine predicted density maps progressively based on hierarchical multi-level density priors. Besides, 
 we also explore different crowd-specific data augmentation methods to mimic real-world scenarios
 and enrich crowd feature representations from different aspects.
