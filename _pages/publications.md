@@ -11,9 +11,10 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+<!--{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+-->
 
 <b>[Crowd Counting via Cross-stage Refinement Networks](https://www.researchgate.net/publication/341504233_Crowd_Counting_via_Cross-stage_Refinement_Networks)</b> <br> 
 <b>Yongtuo Liu</b>, Qiang Wen, Haoxin Chen, Wenxi Liu, Jing Qin, Guoqiang Han, and Shengfeng He. <br>
