@@ -27,7 +27,7 @@ and enrich crowd feature representations from different aspects.
 <b>[CrowdGAN: Identity-free interactive Crowd Video Generation and Beyond]()</b> <br> 
  Liangyu Chai\*, <b>Yongtuo Liu</b>\*, Wenxi Liu, Guoqiang Han, and Shengfeng He. <br>
 <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), Major Revision. (\*denotes equal contribution)</i><br>
-In this paper, we introduce a novel yet challenging research problem, interactive crowd video generation,
+* In this paper, we introduce a novel yet challenging research problem, interactive crowd video generation,
 committed to producing diverse and continuous crowd video, and relieving the difficulty of
 insufficient annotated real-world datasets in crowd analysis. Unlike previous works, the proposed
 method generates continuous crowd behaviors beyond identity annotations or matching.
@@ -35,7 +35,7 @@ method generates continuous crowd behaviors beyond identity annotations or match
 <b>[Weakly Supervised Segmentation via Instance-aware Propagation]()</b> <br> 
  Qianshu Zhu, <b>Yongtuo Liu</b>, and Shengfeng He. <br>
 <i>Neurocomputing, Minor Revision.</i><br>
-Peak Response Map (PRM) can localize instances of each class via gradient back propagation, but it
+* Peak Response Map (PRM) can localize instances of each class via gradient back propagation, but it
 cannot provide reliable information for segmentation even with off-the-shelf object proposals. To this
 end, we propose an Instance-aware Cue-propagation Network (ICN) with a new proposal-matching
 strategy to tackle this problem. In particular, the ICN aims to filter out background distractions and
