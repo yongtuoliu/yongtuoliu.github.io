@@ -16,5 +16,5 @@ author_profile: true
 \- We introduce a novel yet challenging research problem, interactive crowd video generation, committed to producing diverse and continuous crowd video, and relieving the difficulty of insufficient annotated real-world datasets for crowd scene analysis.
 
 - <b>DataFountain Adversarial AI Challenge [[Homepage](https://www.datafountain.cn/)]</b> <br> 
-\- This is an adversarial chanlenge for remote-sensing image classification. I was mainly dedicated to the investigation and re-implementation of general adversarial
+\- This is an adversarial challenge for remote-sensing image classification. I was mainly dedicated to the investigation and re-implementation of general adversarial
 algorithms. In particular, we modify MI-FGSM as the baseline model, and adopt the ensemble learning strategy to attack several substitutes of the target model.
