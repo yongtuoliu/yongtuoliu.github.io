@@ -10,18 +10,12 @@ author_profile: true
 {% endfor %}
 
 - <b>Crowd Couning and Crowd Scene Analysis [[Homepage](https://devmesh.intel.com/projects/a-crowd-counting-and-intelligent-warning-system-in-unconstrained-crowd-scenes)]</b> <br>
-<div>
-    <img class="img-responsive center-block" alt="pipeline picture" src="https://yongtuoliu.github.io/images/raspberry.jpg" style="width:30%">
-    <img class="img-responsive center-block" alt="pipeline picture" src="https://yongtuoliu.github.io/images/system.jpeg" style="width:30%">
-    <img class="img-responsive center-block" alt="pipeline picture" src="https://yongtuoliu.github.io/images/presentation.mp4" style="width:30%">
-    <video src="https://yongtuoliu.github.io/images/presentation.mp4" autoplay="autoplay" style="width:30%"></video>
-</div>
 \- With the rapid increase of urban population, crowd scene analysis has attracted more and more attention. We developed an edge computing device for crowd counting and crowd safety pre-warning. This system is based on Raspberry Pi and Neural Compute Stick 2, and can be deployed on existing surveillance cameras to perform intelligent scene analysis.
 
-<b>[DataFountain Adversarial AI Challenge](https://www.datafountain.cn/)</b> <br> 
-Remote Sensing Image Classification. Mainly dedicated to the investigation and re-implementation of general adversarial
+- <b>Interactive Crowd Video Generation [[Homepage](https://devmesh.intel.com/projects/interactive-crowd-video-generation)]</b> <br> 
+\- We introduce a novel yet challenging research problem, interactive crowd video generation, committed to producing diverse and continuous crowd video, and relieving the difficulty of insufficient annotated real-world datasets in crowd analysis.
+
+- <b>DataFountain Adversarial AI Challenge [[Homepage](https://www.datafountain.cn/)]</b> <br> 
+\- Remote Sensing Image Classification. Mainly dedicated to the investigation and re-implementation of general adversarial
 algorithms. In particular, we modify MI-FGSM as the baseline model, and adopt the ensemble
 learning strategy to attack several substitutes of the target model
-
-<b>[Interactive Crowd Video Generation](https://devmesh.intel.com/projects/interactive-crowd-video-generation)</b> <br> 
-We introduce a novel yet challenging research problem, interactive crowd video generation, committed to producing diverse and continuous crowd video, and relieving the difficulty of insufficient annotated real-world datasets in crowd analysis.
