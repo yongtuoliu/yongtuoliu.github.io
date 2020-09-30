@@ -17,7 +17,6 @@ author_profile: true
 	<a target="_blank" href="https://yongtuoliu.github.io/images/pic/jishi_1.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/jishi_1_re.jpg" alt="OpenVINO" width="100px" height="75px"></a>
 	<a target="_blank" href="https://yongtuoliu.github.io/images/pic/jishi_2.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/jishi_2_re.jpg" alt="OpenVINO" width="100px" height="75px"></a>
 </li>
-
 <li style="margin-top: 10px">Team Buliding Activities of <a href="http://www.shengfenghe.com/group/">SCUT's CVLab</a></li><br>
 <li style="margin-top: -20px">
 	<a target="_blank" href="https://yongtuoliu.github.io/images/pic/snow.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/snow_re.jpg" alt="CVLab" width="100px" height="75px"></a>
