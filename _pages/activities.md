@@ -13,14 +13,14 @@ author_profile: true
 <p>
 <li style="margin-top: 0px">Intel OpenVINO Forum and Award Ceremony</li><br>
 <li style="margin-top: -20px">
-	<a target="_blank" href="pic/jishi_1.jpg"><img src="pic_resized/jishi_1_re.jpg" alt="OpenVINO" width="100px" height="75px"></a>
-	<a target="_blank" href="pic/jishi_2.jpg"><img src="pic_resized/jishi_2_re.jpg" alt="OpenVINO" width="100px" height="75px"></a>
+	<a target="_blank" href="pic/jishi_1.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/jishi_1_re.jpg" alt="OpenVINO" width="100px" height="75px"></a>
+	<a target="_blank" href="pic/jishi_2.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/jishi_2_re.jpg" alt="OpenVINO" width="100px" height="75px"></a>
 </li>
 <li style="margin-top: 10px">Team Buliding Activities of <a href="http://www.shengfenghe.com/group/">SCUT's CVLab</a></li><br>
 <li style="margin-top: -20px">
-	<a target="_blank" href="pic/snow.jpg"><img src="pic_resized/snow_re.jpg" alt="CVLab" width="100px" height="75px"></a>
-	<a target="_blank" href="pic/cs_3.jpg"><img src="pic_resized/cs_3_re.jpg" alt="CVLab" width="100px" height="75px"></a>
-	<a target="_blank" href="pic/dine.jpg"><img src="pic_resized/dine_re.jpg" alt="CVLab" width="100px" height="75px"></a>
+	<a target="_blank" href="pic/snow.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/snow_re.jpg" alt="CVLab" width="100px" height="75px"></a>
+	<a target="_blank" href="pic/cs_3.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/cs_3_re.jpg" alt="CVLab" width="100px" height="75px"></a>
+	<a target="_blank" href="pic/dine.jpg"><img src="https://yongtuoliu.github.io/images/pic_resized/dine_re.jpg" alt="CVLab" width="100px" height="75px"></a>
 </li>
 </p>
 </div>
