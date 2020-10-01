@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yongtuo Liu"
+title                    : "Yongtuo Liu (刘永拓)"
 title_separator          : "-"
 name                     : &name "Yongtuo Liu"
 description              : &description "M.S. student at South China University of Technology"
@@ -83,7 +83,7 @@ author:
   name             : "Yongtuo Liu"
   avatar           : "yongtuoliu.jpg"
   bio              : "M.S. Student at South China University of Technology"
-  location         : "Location"
+  location         : "Guangzhou"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "https://scholar.google.com/citations?hl=zh-CN&user=NBV1HVIAAAAJ"
