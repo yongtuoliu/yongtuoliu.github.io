@@ -26,7 +26,7 @@ and enrich crowd feature representations from different aspects.
 
 <b>[CrowdGAN: Identity-free Interactive Crowd Video Generation and Beyond]()</b> <br> 
  Liangyu Chai\*, <b>Yongtuo Liu</b>\*, Wenxi Liu, Guoqiang Han, and Shengfeng He. <br>
-<i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE TPAMI</b>), Major Revision. (\*denotes equal contribution)</i><br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE TPAMI</b>), 2020. (\*denotes equal contribution)</i><br>
 \- In this paper, we introduce a novel yet challenging research problem, interactive crowd video generation,
 committed to producing diverse and continuous crowd video, and relieving the difficulty of
 insufficient annotated real-world datasets in crowd analysis. Unlike previous works, the proposed
@@ -43,7 +43,7 @@ cover more complete instance, while the proposed proposal-matching strategy adds
 constraint on the contributions of multi-scale object proposals.
 
 <b>[Cross-domain Crowd Counting via Dual Attentive Discriminators]()</b> <br> 
-<b>Yongtuo Liu</b>, Dan Xu, Hanjie Wu, Haoxin Chen, and Shengfeng He. <br>
+<b>Yongtuo Liu</b>, Dan Xu, Sucheng Ren, Hanjie Wu, Hongmin Cai, and Shengfeng He. <br>
 <i> <b>Manuscript</b>.</i><br>
 \- In this work, we propose two label-free feature and density map discriminators for domain adaptation
 across various crowd scenes. In particular, we consider independently the foreground crowd
@@ -51,8 +51,8 @@ and background clutters for fine-grained feature discrimination, and exploit the
 indicating foreground crowd areas to generate target-domain pseudo labels as density-map domain
 constraints.
 
-<b>[A New Few-shot Setting for Crowd Counting]()</b> <br> 
-<b>Yongtuo Liu</b>, Dan Xu, Sucheng Ren, Yuan Liang, and Shengfeng He. <br>
+<b>[Exploiting Intra-image Labeling Redundency for Semi-supervised Crowd Counting]()</b> <br> 
+<b>Yongtuo Liu</b>, Dan Xu, and Shengfeng He. <br>
 <i> <b>Manuscript</b>.</i><br>
 \- The counting labeling is onerous as it requires to manually label each individual in the crowd. In
 view of this, we introduce a new few-shot setting to alleviate this problem, where only few individuals
