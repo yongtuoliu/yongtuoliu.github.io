@@ -32,7 +32,7 @@ committed to producing diverse and continuous crowd video, and relieving the dif
 insufficient annotated real-world datasets in crowd analysis. Unlike previous works, the proposed
 method generates continuous crowd behaviors beyond identity annotations or matching.
 
-<b>[Weakly Supervised Segmentation via Instance-aware Propagation]()</b> <br> 
+<!--<b>[Weakly Supervised Segmentation via Instance-aware Propagation]()</b> <br> 
  Qianshu Zhu, <b>Yongtuo Liu</b>, and Shengfeng He. <br>
 <i><b>Neurocomputing</b>, Minor Revision.</i><br>
 \- Peak Response Map (PRM) can localize instances of each class via gradient back propagation, but it
@@ -41,17 +41,20 @@ end, we propose an Instance-aware Cue-propagation Network (ICN) with a new propo
 strategy to tackle this problem. In particular, the ICN aims to filter out background distractions and
 cover more complete instance, while the proposed proposal-matching strategy adds a new re-balancing
 constraint on the contributions of multi-scale object proposals.
+-->
 
-<b>[Cross-domain Crowd Counting via Dual Attentive Discriminators]()</b> <br> 
-<b>Yongtuo Liu</b>, Dan Xu, Sucheng Ren, Hanjie Wu, Hongmin Cai, and Shengfeng He. <br>
+<!--<b>[Crowd Counting via Dual Attentive Discriminators]()</b> <br> 
+<b>Yongtuo Liu</b>, Dan Xu, and Shengfeng He. <br>
 <i> <b>Manuscript</b>.</i><br>
 \- In this work, we propose two label-free feature and density map discriminators for domain adaptation
 across various crowd scenes. In particular, we consider independently the foreground crowd
 and background clutters for fine-grained feature discrimination, and exploit the soft attention map
 indicating foreground crowd areas to generate target-domain pseudo labels as density-map domain
 constraints.
+-->
 
-<b>[Exploiting Intra-image Labeling Redundency for Semi-supervised Crowd Counting]()</b> <br> 
+<!--
+<b>[Semi-supervised Crowd Counting]()</b> <br> 
 <b>Yongtuo Liu</b>, Dan Xu, and Shengfeng He. <br>
 <i> <b>Manuscript</b>.</i><br>
 \- The counting labeling is onerous as it requires to manually label each individual in the crowd. In
@@ -59,3 +62,4 @@ view of this, we introduce a new few-shot setting to alleviate this problem, whe
 are annotated in each crowd image. We formulate the new setting as a domain adaptation problem.
 In particular, the annotated crowd areas are considered as source domain, while the other predicted
 areas are target domain.
+-->
